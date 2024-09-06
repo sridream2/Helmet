@@ -10,7 +10,7 @@ from streamlit_pdf_viewer import pdf_viewer
 
 #these are main classes your image is trained on
 #you can define the classes in alphabectical order
-PREDICTED_LABELS = ["tom_jerry_0", "tom_jerry_1"] #edit1
+PREDICTED_LABELS = ["Without Helmet", "With Helmet"] #edit1
 PREDICTED_LABELS.sort()
 
 def get_prediction(image_data):
@@ -34,7 +34,7 @@ tab1, tab2 = st.tabs(["Make Prediction", "View Report"])
 
 with tab1:
   #setting up the title
-  st.header("Tom and Jerry Image Classifier")#change according to your project   #edit 3
+  st.header("Helmet Detection")#change according to your project   #edit 3
   #setting up the subheader
   st.subheader("File Uploader")#change according to your project
 
