@@ -44,7 +44,7 @@ with tab1:
     #converting the image to bytes
     img = Image.open(image)
     buf = io.BytesIO()
-    img.save(buf,format = 'JPEG')
+    img.save(buf,format = 'PNG')
     byte_im = buf.getvalue()
 
     #converting bytes to b64encoding
