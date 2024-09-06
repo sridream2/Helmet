@@ -85,11 +85,11 @@ with tab2:
   st.header("My Report")
 
   #add github link
-  st.link_button("My Github Repository", "https://github.com/sridream2/AP_Poly_TomandJerry") #Edit3
+  st.link_button("My Github Repository", "https://github.com/sridream2/Helmet") #Edit3
 
   # URL of the PDF file in the GitHub repository
   # sample url -> "https://raw.githubusercontent.com/yourusername/yourrepository/branch/yourfile.pdf"
-  pdf_url = "https://raw.githubusercontent.com/sridream2/AP_Poly_TomandJerry/main/sample.pdf"  #edit4
+  pdf_url = "https://raw.githubusercontent.com/sridream2/Helmet/main/sample.pdf"  #edit4
 
   # Fetch the PDF file from GitHub
   response = requests.get(pdf_url)
